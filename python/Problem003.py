@@ -18,7 +18,7 @@ def factorize_of_prime(value, factory) :
 
 
 if __name__ == '__main__' :
-	size = 13195
+	size = 600851475143
 	if len(sys.argv) > 1 and sys.argv[1].isdigit() :
 		size = int(sys.argv[1])
 

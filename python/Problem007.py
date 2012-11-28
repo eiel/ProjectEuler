@@ -13,7 +13,7 @@ def check_prime(val) :
 
 if __name__ == '__main__' :
 	
-	max = 10
+	max = 10001
 	if len(sys.argv) > 1 and sys.argv[1].isdigit() :
 		max = int(sys.argv[1])
 

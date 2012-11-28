@@ -10,7 +10,7 @@ def factorize_of_prime(num, list) :
 		list.append(num)
 
 if __name__ == '__main__':
-	max = 10
+	max = 20
 	if len(sys.argv) > 1 and sys.argv[1].isdigit() :
 		max = int(sys.argv[1])
 

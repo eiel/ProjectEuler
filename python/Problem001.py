@@ -10,7 +10,7 @@ def sum_multiple_of_3_or_5(max) :
 	return result
 
 if __name__ == '__main__' :
-	max = 10
+	max = 1000
 	if len(sys.argv) > 1 and sys.argv[1].isdigit() :
 		max = int(sys.argv[1])
 
